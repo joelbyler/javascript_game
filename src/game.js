@@ -114,7 +114,7 @@ function update () {
 
   //  This allows the player to jump!
   if (cursors.up.isDown && player.body.touching.down) {
-    player.body.velocity.y = -400
+    player.body.velocity.y = -800
   }
   // Show an alert modal when score reaches 120
   if (score === 120) {
